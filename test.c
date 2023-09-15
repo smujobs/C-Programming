@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-  int num1 = 3;
-  int num2 = 4;
-  int res = num1 + num2;
+  int n1 = 10;
+  int n2 = (--n1)+2;
 
-  printf("덧셈 결과: %d\n", res);
+  printf("%d", n2);
+  return 0;
 }

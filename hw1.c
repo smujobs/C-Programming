@@ -9,8 +9,8 @@ int main() {
   int orInputs = inputNum1 | inputNum2;
   int xorInputs = inputNum1 ^ inputNum2;
 
-  printf("\n%d & %d = %d\n", inputNum1, inputNum2, andInputs);
-  printf("\n%d | %d = %d\n", inputNum1, inputNum2, orInputs);
-  printf("\n%d ^ %d = %d\n", inputNum1, inputNum2, xorInputs);
+  printf("%d & %d = %d\n", inputNum1, inputNum2, andInputs);
+  printf("%d | %d = %d\n", inputNum1, inputNum2, orInputs);
+  printf("%d ^ %d = %d", inputNum1, inputNum2, xorInputs);
   return 0;
 }
